@@ -76,7 +76,7 @@ const SignUp = () => {
           <p className='text-success'>{success}</p>
           <p className='text-danger'>{error}</p>
 
-          {/* create a function that will send our data to the backend */}
+          
 
           
           <input type="text" placeholder='Enter your username' className='form-control' value={username} onChange={(e)=>setUsername(e.target.value)} required/>
