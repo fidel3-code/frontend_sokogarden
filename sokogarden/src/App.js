@@ -19,7 +19,7 @@ function App() {
       <header className="App-header">
         <h1 clasName="text-white">Sokogarden-Buy and Sell Online</h1>
       </header>
-      <nav>
+      <nav className='sticky-top'>
 
         <Link to="/" className="btn btn-success text-white p-1 m-3 btn-outline-warning">Get Products</Link>
         <Link to="/addproducts" className='btn btn-success text-white p-1 m-3 btn-outline-warning'>Add Products</Link>
